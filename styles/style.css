@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(7, 7, 29);
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+
+header h1{
+    font-size: 3rem;
+    text-shadow: 5px 5px 5px blueviolet;
+
+}
+h2{
+    font-size: 2rem;
+    text-shadow: 5px 5px 5px blueviolet;
+    /* text-align: center; */
+    padding-left: 70px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    color: lavenderblush;
+}
+header h1:hover{
+    font-size: 3.3rem;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(5, 0, 66);
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li,a{
+    list-style: none;
+    padding: 10px 10px;
+    margin: 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+ul li,a:hover{
+    color:lavender;
+    font-size: 1.8rem;
+
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 0;
+
+}
+
+.firstSection >div{
+   width: 30%;
+}
+.leftSection{
+    /* background-color: red; */
+    font-size: 3.5rem;
+    /* margin: 70px 0; */
+}
+.leftSection p span{
+    color: rgb(151, 79, 218);
+        cursor: pointer;
+}
+.rightSection{
+    /* background-color: red; */
+}
+.rightSection img{
+    height: 100%;  
+    margin-top: 20px;
+    filter: drop-shadow(5px 5px 5px blueviolet);
+}
+
+#element{
+    color: blueviolet;
+}
+
+.secondSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 0;
+}
+ .secondSection .leftSection p{ 
+    padding: 10px 100px;
+    font-size: 2rem;
+    text-align: left;
+ }
+
+hr{
+    border: 0;
+    background-color: blueviolet;
+    height: 1px;
+    margin: 40px 90px;
+}
+.stdy{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    font-size: 2.5rem;
+}
+.left{
+    display: flex;
+    margin: 100px;
+    padding: 100px;
+}
+.left img{
+    height: 200px;
+    filter: drop-shadow(5px 5px 5px blueviolet);
+
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    /* margin: 100px; */
+    /* padding: 100px; */
+}
+
+.mid img{
+    /* border: 2px solid blueviolet ; */
+    border-radius: 20px;
+    height: 300px;
+    /* width: 250px; */
+    /* filter: drop-shadow(5px 5px 5px blueviolet); */
+    padding-bottom: 20px;
+
+}
+
+.right{
+    display: flex;
+    margin: 100px;
+    padding: 100px;
+}
+
+.right img{
+    height: 200px;
+    filter: drop-shadow(5px 5px 5px blueviolet);
+
+}
+
+.stdy span{
+    color: blueviolet;
+}
