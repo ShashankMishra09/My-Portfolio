@@ -164,3 +164,18 @@ hr{
 .stdy span{
     color: blueviolet;
 }
+
+.blog img{
+    padding: 25px 25px;
+    margin: 20px;
+    height: 200px;
+    /* border: 2px solid blueviolet; */
+    filter: drop-shadow(5px 5px 5px blueviolet);
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    z-index: -1;
+}
+
+.projects .blog img.transform {
+    transform: scale(3);
+}
