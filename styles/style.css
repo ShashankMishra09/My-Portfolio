@@ -15,7 +15,17 @@ header h1{
     text-shadow: 5px 5px 5px blueviolet;
 
 }
-h2,h4{
+h2{
+    font-size: 3rem;
+    text-shadow: 5px 5px 5px blueviolet;
+    /* text-align: center; */
+    padding-left: 70px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    color: lavenderblush;
+}
+h4{
     font-size: 2rem;
     text-shadow: 5px 5px 5px blueviolet;
     /* text-align: center; */
@@ -24,6 +34,7 @@ h2,h4{
     padding-bottom: 10px;
     text-decoration: underline;
     color: lavenderblush;
+
 }
 header h1:hover{
     font-size: 3.3rem;
@@ -140,12 +151,11 @@ hr{
 }
 
 .mid img{
-    /* border: 2px solid blueviolet ; */
     border-radius: 20px;
     height: 300px;
-    /* width: 250px; */
-    /* filter: drop-shadow(5px 5px 5px blueviolet); */
     padding-bottom: 20px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
 
 }
 
@@ -176,6 +186,28 @@ hr{
     z-index: -1;
 }
 
-.projects .blog img.transform {
+.transform {
     transform: scale(3);
+    z-index: -1;
+}
+
+.transfrm { 
+    transform: scale(1.5); 
+}
+ 
+footer{
+    background-color: rgb(2, 1, 49);
+    color: rgb(230, 253, 253);
+    height: 100px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p{
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    /* text-align: center; */
 }
