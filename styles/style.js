@@ -6,16 +6,10 @@ var typed = new Typed('#element', {
 $(document).ready(function () {
   // Add click event handler to images with the class "pic1" to "pic7"
   $(".blog img").on("click", function () {
-    // Remove the "transform" class from all images first
+    
 
-    // Add the "transform" class to the clicked image
+    // Toggle the "transform" class to the clicked image
     $(this).toggleClass("transform");
-
-    // setTimeout(() => {
-    //   $(this).removeClass("transform");
-    // }, 5000);
-
-
 
   });
   $(".mid img").on("click", function () {

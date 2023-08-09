@@ -69,7 +69,7 @@ ul li,a{
 
 ul li,a:hover{
     color:lavender;
-    font-size: 1.8rem;
+    transform: translateY(-2px);
 
 }
 
@@ -198,11 +198,15 @@ hr{
 footer{
     background-color: rgb(2, 1, 49);
     color: rgb(230, 253, 253);
-    height: 100px;
+    height: 220px;
     bottom: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+footer div{
+    padding: 5px;
 }
 
 footer p{
@@ -210,4 +214,17 @@ footer p{
     font-weight: bold;
     font-size: 1.2rem;
     /* text-align: center; */
+}
+
+footer p:hover{
+    transform: translateY(-11px);
+    cursor: pointer;
+
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
