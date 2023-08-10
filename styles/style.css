@@ -175,10 +175,14 @@ hr{
     color: blueviolet;
 }
 
+.blog{
+    height: 600px;
+}
+
 .blog img{
-    padding: 25px 25px;
+    padding: 25px 25px;    
     margin: 20px;
-    height: 200px;
+    height: 500px;
     /* border: 2px solid blueviolet; */
     filter: drop-shadow(5px 5px 5px blueviolet);
     cursor: pointer;
@@ -198,7 +202,7 @@ hr{
 footer{
     background-color: rgb(2, 1, 49);
     color: rgb(230, 253, 253);
-    height: 220px;
+    height: 280px;
     bottom: 0;
     display: flex;
     justify-content: space-around;
